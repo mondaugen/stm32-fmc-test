@@ -5,7 +5,7 @@
 #include "fmc.h" 
 
 #define BUFFER_SIZE         ((uint32_t)0x0100)
-#define WRITE_READ_ADDR     ((uint32_t)0x0800)
+#define WRITE_READ_ADDR     ((uint32_t)0x0)
 /* Read/Write Buffers */
 uint32_t aTxBuffer[BUFFER_SIZE];
 uint32_t aRxBuffer[BUFFER_SIZE];
